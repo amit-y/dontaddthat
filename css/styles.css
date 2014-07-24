@@ -1,0 +1,45 @@
+body {
+	margin: 3rem 0;
+}
+
+#content {
+	width: 360px;
+	margin: 0 auto;
+}
+
+.dat {
+	padding: 0 2px;
+}
+
+.dat .fa {
+	width: 32px;
+	height: 32px;
+	color: white;
+}
+
+.dat .fa-facebook {
+	background-color: #3b5998;
+}
+
+.dat .fa-facebook:before {
+	left: 10px;
+	top: 5px;
+	position: relative;
+}
+
+.dat .fa-twitter {
+	background-color: #55acee;
+}
+
+.dat .fa-twitter:before {
+	left: 2px;
+	position: relative;
+}
+
+.dat .fa-envelope, .dat .fa-print {
+	background-color: gray;
+}
+
+.dat .fa-envelope:before, .dat .fa-print:before {
+	position: relative;
+}
