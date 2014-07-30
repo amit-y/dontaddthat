@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>don't add that!</title>
+
+    <!-- Bootstrap -->
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="margin: 3rem auto;">
+    <div class="row">
+      <div class="col-sm-4 col-sm-offset-4">
+        <a href="#" class="btn btn-default btn-dat btn-facebook"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="#" class="btn btn-default btn-dat btn-twitter"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="#" class="btn btn-default btn-dat btn-email" data-toggle="modal" data-target="#email-modal"><i class="fa fa-envelope fa-2x"></i></a>
+        <a href="#" class="btn btn-default btn-dat btn-print"><i class="fa fa-print fa-2x"></i></a>
+      </div>
+    </div>
+
+    <div class="modal fade" id="email-modal" tabindex="-1" role="dialog" aria-labelledby="email-modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="email-modal-label">Send Email</h4>
+          </div>
+          <div class="modal-body">
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="email-to" class="col-sm-2 control-label">To</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email-to" placeholder="email address of recipient (seperate multiple addresses with comma)">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email-from" class="col-sm-2 control-label">From</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email-from" placeholder="email address of sender">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

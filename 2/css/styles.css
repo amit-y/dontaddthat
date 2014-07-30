@@ -1,0 +1,27 @@
+.btn-dat, .btn-dat:hover, .btn-dat:active, .btn-dat:focus, .btn-dat:visited {
+	color: #fff;
+	border: none;
+	border-radius: 0;
+}
+
+.btn-facebook, .btn-facebook:hover, .btn-facebook:active, .btn-facebook:focus, .btn-facebook:visited {
+	background-color: #3b5998;
+}
+
+.btn-twitter, .btn-twitter:hover, .btn-twitter:active, .btn-twitter:focus, .btn-twitter:visited {
+	background-color: #55acee;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+.btn-email, .btn-email:hover, .btn-email:active, .btn-email:focus, .btn-email:visited {
+	background-color: #999;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.btn-print, .btn-print:hover, .btn-print:active, .btn-print:focus, .btn-print:visited {
+	background-color: #999;
+	padding-left: 7px;
+	padding-right: 7px;
+}
